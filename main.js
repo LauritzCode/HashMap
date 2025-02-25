@@ -1,13 +1,7 @@
 import { HashMap } from "./src/hash.js";
 
+// initialize a new hash map:
 const hash = new HashMap();
-hash.set("New Key", "New Sock");
-hash.set("Change", "Ghosteers");
-hash.set("Socker", "Value");
-hash.set("Some Password?", "Now");
-hash.set("Some Change in the Range!?", "Now");
 
-console.log(hash.buckets);
-console.log(hash.keys());
-console.log(hash.values());
-console.log(hash.entries());
+// Set a new key value pair.
+hash.set("New Key", "New Value");
